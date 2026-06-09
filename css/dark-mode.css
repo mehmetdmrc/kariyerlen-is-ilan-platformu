@@ -1,0 +1,1032 @@
+/* Professional Dark Mode Overrides */
+body.dark-mode {
+    background-color: #111827 !important;
+    color: #f3f4f6 !important;
+}
+
+/* Custom Scrollbar for Dark Mode */
+body.dark-mode::-webkit-scrollbar,
+body.dark-mode *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+body.dark-mode::-webkit-scrollbar-track,
+body.dark-mode *::-webkit-scrollbar-track {
+    background: #111827 !important;
+}
+
+body.dark-mode::-webkit-scrollbar-thumb,
+body.dark-mode *::-webkit-scrollbar-thumb {
+    background: #374151 !important;
+    border-radius: 4px;
+}
+
+body.dark-mode::-webkit-scrollbar-thumb:hover,
+body.dark-mode *::-webkit-scrollbar-thumb:hover {
+    background: #4b5563 !important;
+}
+
+body.dark-mode header {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+}
+
+body.dark-mode .logo {
+    color: #f9fafb !important;
+}
+
+body.dark-mode .sag-menu {
+    background-color: transparent !important;
+}
+
+/* Cards & Modals */
+body.dark-mode .ilan-kart,
+body.dark-mode .mini-ilan-kart,
+body.dark-mode .io-kart,
+body.dark-mode .blog-kart,
+body.dark-mode .modal-icerik,
+body.dark-mode .profil-kart,
+body.dark-mode .dropdown-menu,
+body.dark-mode .dropdown-icerik,
+body.dark-mode .ep-container,
+body.dark-mode .ep-aside,
+body.dark-mode .ep-main,
+body.dark-mode .bildirim-kart,
+body.dark-mode .mesaj-balonu.gelen,
+body.dark-mode .ilan-detay-paneli,
+body.dark-mode .top-filtre-bar,
+body.dark-mode .profil-baslik-alani,
+body.dark-mode .sidebar-widget {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.dark-mode .profil-baslik-alani {
+    background: linear-gradient(135deg, #1f2937 0%, #111827 100%) !important;
+}
+
+body.dark-mode .detay-ozellik-grid,
+body.dark-mode .mini-ilan-logo,
+body.dark-mode .profil-foto-cerceve,
+body.dark-mode .populer-img,
+body.dark-mode .io-logo {
+    background-color: #374151 !important;
+    border-color: #4b5563 !important;
+}
+
+body.dark-mode .btn-kaydet-detay,
+body.dark-mode .btn-paylas-detay,
+body.dark-mode .m-btn-kaydet,
+body.dark-mode .m-btn-paylas,
+body.dark-mode .kapat-btn,
+body.dark-mode .m-btn-paylas,
+body.dark-mode .btn-outline,
+body.dark-mode .kat-btn {
+    background-color: #374151 !important;
+    border-color: #4b5563 !important;
+    color: #f9fafb !important;
+}
+
+body.dark-mode .btn-kaydet-detay:hover,
+body.dark-mode .btn-paylas-detay:hover,
+body.dark-mode .m-btn-kaydet:hover,
+body.dark-mode .m-btn-paylas:hover,
+body.dark-mode .kapat-btn:hover,
+body.dark-mode .kat-btn:hover {
+    background-color: #4b5563 !important;
+    border-color: #6b7280 !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode .btn-kaydet-detay.aktif,
+body.dark-mode .m-btn-kaydet.saved,
+body.dark-mode .mini-ilan-kart.aktif,
+body.dark-mode .kat-btn.aktif {
+    background-color: #374151 !important;
+    border-color: #ff7e1d !important;
+    color: #ff7e1d !important;
+}
+
+/* Modal Overlay Backdrop */
+body.dark-mode .modal {
+    background: rgba(0, 0, 0, 0.75) !important;
+}
+
+/* Inputs & Form Elements */
+body.dark-mode .arama-kutusu,
+body.dark-mode .kategori-filtre,
+body.dark-mode .filtre-grup select,
+body.dark-mode input[type="text"],
+body.dark-mode input[type="email"],
+body.dark-mode input[type="password"],
+body.dark-mode input[type="number"],
+body.dark-mode input[type="date"],
+body.dark-mode textarea,
+body.dark-mode select,
+body.dark-mode .dropdown-trigger,
+body.dark-mode .sekme-buton,
+body.dark-mode .nav-arama-kutusu,
+body.dark-mode .ep-arama,
+body.dark-mode .bildirim-bg,
+body.dark-mode .arama-kutu,
+body.dark-mode .profil-input-grup input,
+body.dark-mode .profil-input-grup select,
+body.dark-mode .profil-input-grup textarea,
+body.dark-mode .profil-sekmeler {
+    background-color: #374151 !important;
+    border-color: #4b5563 !important;
+    color: #f9fafb !important;
+}
+
+body.dark-mode .profil-sekmeler {
+    background-color: #111827 !important;
+}
+
+body.dark-mode .p-sekme.aktif {
+    background-color: #1f2937 !important;
+    color: #ff7e1d !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+body.dark-mode .p-sekme:hover:not(.aktif) {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    color: #f3f4f6 !important;
+}
+
+/* Placeholders */
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+    color: #9ca3af !important;
+}
+
+/* Universal Text Color Fixes for Inline Styles */
+body.dark-mode [style*="color: #111827"],
+body.dark-mode [style*="color:#111827"],
+body.dark-mode [style*="color: #1f2937"],
+body.dark-mode [style*="color:#1f2937"],
+body.dark-mode [style*="color: #374151"],
+body.dark-mode [style*="color:#374151"],
+body.dark-mode [style*="color: #4b5563"],
+body.dark-mode [style*="color:#4b5563"],
+body.dark-mode [style*="color: #1e293b"],
+body.dark-mode [style*="color:#1e293b"],
+body.dark-mode [style*="color: #334155"],
+body.dark-mode [style*="color:#334155"],
+body.dark-mode [style*="color: #475569"],
+body.dark-mode [style*="color:#475569"],
+body.dark-mode [style*="color: #64748b"],
+body.dark-mode [style*="color:#64748b"],
+body.dark-mode [style*="color: #000"],
+body.dark-mode [style*="color:#000"],
+body.dark-mode [style*="color: #000000"],
+body.dark-mode [style*="color:#000000"],
+body.dark-mode [style*="color: #333"],
+body.dark-mode [style*="color:#333"],
+body.dark-mode [style*="color: #333333"],
+body.dark-mode [style*="color:#333333"],
+body.dark-mode [style*="color: #555"],
+body.dark-mode [style*="color:#555"],
+body.dark-mode [style*="color: #555555"],
+body.dark-mode [style*="color:#555555"],
+body.dark-mode [style*="color: #666"],
+body.dark-mode [style*="color:#666"],
+body.dark-mode [style*="color: #666666"],
+body.dark-mode [style*="color:#666666"] {
+    color: #f9fafb !important;
+}
+
+/* Universal Background Color Fixes for Inline Styles */
+body.dark-mode [style*="background: #fff"],
+body.dark-mode [style*="background:#fff"],
+body.dark-mode [style*="background: #ffffff"],
+body.dark-mode [style*="background:#ffffff"],
+body.dark-mode [style*="background: white"],
+body.dark-mode [style*="background:white"],
+body.dark-mode [style*="background: #fff7ed"],
+body.dark-mode [style*="background:#fff7ed"],
+body.dark-mode [style*="background: #fef2f2"],
+body.dark-mode [style*="background:#fef2f2"],
+body.dark-mode [style*="background: #f8fafc"],
+body.dark-mode [style*="background:#f8fafc"],
+body.dark-mode .sayfa-ust,
+body.dark-mode .filtre-select,
+body.dark-mode .sabit-filtre-bar,
+body.dark-mode .ilan-panel,
+body.dark-mode .il-detay-govde,
+body.dark-mode .p-kutu,
+body.dark-mode .p-stat-kart,
+body.dark-mode .iv-kutu,
+body.dark-mode .pm-ilan-kart,
+body.dark-mode .pm-aday-kart,
+body.dark-mode .p-form,
+body.dark-mode .p-foto-menu,
+body.dark-mode .toast,
+body.dark-mode .modal-header-tabs,
+body.dark-mode .modal-detay-sol,
+body.dark-mode .modal-detay-sag,
+body.dark-mode .m-bilgi-kutu,
+body.dark-mode .benzer-ilan-kart,
+body.dark-mode .modal-header-custom,
+body.dark-mode #chat_messages,
+body.dark-mode .p-ana-foto-bos,
+body.dark-mode .aday-av,
+body.dark-mode .iv-btn-beyaz,
+body.dark-mode .iv-select,
+body.dark-mode .iv-gun-chip span,
+body.dark-mode .filter-pill,
+body.dark-mode .btn-tumunu-gor,
+body.dark-mode .btn-giris,
+body.dark-mode .btn-outline-nav,
+body.dark-mode .btn-icon-gray,
+body.dark-mode .modal-kaydet-btn,
+body.dark-mode .profil-avatar,
+body.dark-mode .chip,
+body.dark-mode .blog-card,
+body.dark-mode .blog-subnav,
+body.dark-mode .share-btn-round {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+}
+
+body.dark-mode .subnav-link {
+    color: #9ca3af !important;
+    border-color: transparent !important;
+}
+
+body.dark-mode .subnav-link:hover {
+    color: #ff7e1d !important;
+    border-color: #ff7e1d !important;
+}
+
+body.dark-mode .subnav-link.active {
+    color: #ff7e1d !important;
+    border-color: #ff7e1d !important;
+}
+
+/* Specific Typography Overrides */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode .ilan-baslik,
+body.dark-mode .mini-ilan-baslik,
+body.dark-mode .io-baslik,
+body.dark-mode .ep-ilan-baslik,
+body.dark-mode .blog-baslik,
+body.dark-mode .nav-link,
+body.dark-mode strong,
+body.dark-mode .m-bolum-baslik,
+body.dark-mode .mesaj-baslik-yeni,
+body.dark-mode .m-ozellik-kutu h4,
+body.dark-mode .detay-ozellik-item h4,
+body.dark-mode .io-tur,
+body.dark-mode .detay-baslik,
+body.dark-mode .detay-bolum-baslik,
+body.dark-mode #m_baslik,
+body.dark-mode #ip_firmaadi,
+body.dark-mode #ap_adsoyad,
+body.dark-mode .widget-baslik,
+body.dark-mode .populer-baslik,
+body.dark-mode .card-title,
+body.dark-mode .mesaj-baslik-yeni,
+body.dark-mode .yazar-bilgi strong,
+body.dark-mode .paylas-text,
+body.dark-mode .mini-baslik,
+body.dark-mode .detay-h1,
+body.dark-mode .section-h2,
+body.dark-mode .info-label,
+body.dark-mode .m-baslik,
+body.dark-mode .m-bilgi-val,
+body.dark-mode .benzer-baslik {
+    color: #f9fafb !important;
+}
+
+body.dark-mode p,
+body.dark-mode span,
+body.dark-mode label,
+body.dark-mode .ilan-firma,
+body.dark-mode .mini-ilan-firma,
+body.dark-mode .blog-tarih,
+body.dark-mode .ikinci-metin,
+body.dark-mode .m-is-tanimi,
+body.dark-mode .detay-metin,
+body.dark-mode .m-lokasyon,
+body.dark-mode .detay-ozellik-item p,
+body.dark-mode .m-ozellik-kutu p,
+body.dark-mode .detay-konum-link,
+body.dark-mode .detay-konum-link a,
+body.dark-mode #m_aciklama,
+body.dark-mode #m_isveren_hakkimda,
+body.dark-mode #m_isveren_adres,
+body.dark-mode #ip_hakkimda,
+body.dark-mode #ip_lokasyon,
+body.dark-mode #ap_hakkimda,
+body.dark-mode #ap_dogumyili,
+body.dark-mode #m_adres,
+body.dark-mode #m_calisma,
+body.dark-mode #m_yanhak,
+body.dark-mode #m_maas,
+body.dark-mode #m_gunler,
+body.dark-mode #m_saatler,
+body.dark-mode #m_basvuru_sayisi,
+body.dark-mode .io-firma,
+body.dark-mode .io-konum,
+body.dark-mode .card-text,
+body.dark-mode .bilgi-deger,
+body.dark-mode .makale-meta span,
+body.dark-mode .share-btn-round,
+body.dark-mode .mini-firma,
+body.dark-mode .mini-konum,
+body.dark-mode .mini-zaman,
+body.dark-mode .desc-text,
+body.dark-mode .info-val,
+body.dark-mode .m-aciklama,
+body.dark-mode .benzer-firma,
+body.dark-mode .p-sekme {
+    color: #d1d5db !important;
+}
+
+/* Force light text in all detail containers to be sure */
+body.dark-mode .modal-body,
+body.dark-mode .modal-body p,
+body.dark-mode .modal-body div:not(.m-aksiyon-butonlar div),
+body.dark-mode .ilan-detay-paneli,
+body.dark-mode .ilan-detay-paneli p,
+body.dark-mode .ilan-detay-paneli div,
+body.dark-mode .hero-bolumu {
+    color: #d1d5db !important;
+}
+
+body.dark-mode .hero-bolumu {
+    background: linear-gradient(135deg, #111827 0%, #1f2937 100%) !important;
+    border-bottom: 1px solid #374151 !important;
+}
+
+body.dark-mode .etiket {
+    background: #374151 !important;
+    border-color: #4b5563 !important;
+    color: #f3f4f6 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+body.dark-mode .etiket:hover {
+    background: #4b5563 !important;
+    color: #ff7e1d !important;
+    border-color: #ff7e1d !important;
+}
+
+body.dark-mode .hero-bolumu img {
+    filter: brightness(0.8) contrast(1.1);
+    opacity: 0.95;
+}
+
+
+
+/* Keep accented text intact */
+body.dark-mode .btn-turuncu span,
+body.dark-mode .btn-turuncu-nav span,
+body.dark-mode .logo-icon span,
+body.dark-mode .io-yeni,
+body.dark-mode .m-badge-yeni,
+body.dark-mode .mini-ilan-yeni,
+body.dark-mode .m-firma-adi {
+    color: inherit !important;
+}
+
+/* Specific Header Backgrounds */
+body.dark-mode .profil-kart-baslik,
+body.dark-mode .modal-baslik,
+body.dark-mode .ep-sabit-filtreler,
+body.dark-mode .ep-baslik-alani,
+body.dark-mode .mesaj-gonderme-alani,
+body.dark-mode .profil-istatistik-kart,
+body.dark-mode .profil-kart-baslik {
+    background-color: #374151 !important;
+    border-color: #4b5563 !important;
+}
+
+/* Interactive Elements Hover/Active states */
+body.dark-mode .dropdown-option {
+    color: #d1d5db !important;
+}
+
+body.dark-mode .dropdown-option:hover {
+    background-color: #4b5563 !important;
+    color: #f9fafb !important;
+}
+
+body.dark-mode .dropdown-option.selected {
+    background-color: #374151 !important;
+    color: #ff7e1d !important;
+}
+
+body.dark-mode .sekme-buton:hover,
+body.dark-mode .arama-btn-mini:hover {
+    background-color: #4b5563 !important;
+}
+
+body.dark-mode .sekme-buton.aktif {
+    background-color: #ff7e1d !important;
+    color: #ffffff !important;
+    border-color: #ff7e1d !important;
+}
+
+/* Mesajlasma Modal Fixes */
+body.dark-mode #mesajlasmaModal .modal-icerik>div:first-child,
+body.dark-mode #mesajlasmaModal .modal-icerik>div:last-child {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+}
+
+body.dark-mode #msj_kutu {
+    background-color: #111827 !important;
+}
+
+body.dark-mode #msj_metin {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #f9fafb !important;
+}
+
+
+body.dark-mode .profil-buton {
+    background-color: #374151 !important;
+    border-color: #4b5563 !important;
+    color: #f9fafb !important;
+}
+
+body.dark-mode .profil-buton:hover {
+    background-color: #4b5563 !important;
+}
+
+body.dark-mode .theme-toggle-btn {
+    background-color: #374151 !important;
+    color: #fbbf24 !important;
+}
+
+body.dark-mode .theme-toggle-btn:hover {
+    background-color: #4b5563 !important;
+}
+
+body.dark-mode #theme-icon-sun {
+    display: block !important;
+}
+
+body.dark-mode #theme-icon-moon {
+    display: none !important;
+}
+
+/* Footer */
+body.dark-mode footer {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+}
+
+body.dark-mode .footer-sutun h4 {
+    color: #f9fafb !important;
+}
+
+body.dark-mode .footer-sutun ul li a {
+    color: #9ca3af !important;
+}
+
+body.dark-mode .footer-sutun ul li a:hover {
+    color: #ff7e1d !important;
+}
+
+/* ========= Giris.php Auth Page Dark Mode ========= */
+body.dark-mode .auth-container {
+    background-color: #111827 !important;
+}
+
+body.dark-mode .auth-left {
+    background-color: #1f2937 !important;
+}
+
+body.dark-mode .auth-right {
+    background-color: #111827 !important;
+}
+
+body.dark-mode .auth-form-kutu h2 {
+    color: #f9fafb !important;
+}
+
+body.dark-mode .auth-circle {
+    background-color: #374151 !important;
+    box-shadow: 0 0 0 60px rgba(255, 126, 29, 0.06), 0 0 0 120px rgba(255, 126, 29, 0.03) !important;
+}
+
+body.dark-mode .info-bubble {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #d1d5db !important;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.dark-mode .form-grup label {
+    color: #d1d5db !important;
+}
+
+body.dark-mode .form-grup input,
+body.dark-mode .form-grup select {
+    background: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #f9fafb !important;
+}
+
+/* Chrome/Edge autofill override for dark mode */
+body.dark-mode .form-grup input:-webkit-autofill,
+body.dark-mode .form-grup input:-webkit-autofill:hover,
+body.dark-mode .form-grup input:-webkit-autofill:focus,
+body.dark-mode .form-grup input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px #1f2937 inset !important;
+    -webkit-text-fill-color: #f9fafb !important;
+    border-color: #374151 !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+body.dark-mode .form-grup input:focus,
+body.dark-mode .form-grup select:focus {
+    border-color: #ff7e1d !important;
+    background: #111827 !important;
+    box-shadow: 0 0 0 4px rgba(255, 126, 29, 0.15) !important;
+}
+
+body.dark-mode .sosyal-btn {
+    background: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #d1d5db !important;
+}
+
+body.dark-mode .sosyal-btn:hover {
+    background: #374151 !important;
+    border-color: #4b5563 !important;
+    color: #f9fafb !important;
+}
+
+body.dark-mode .ayirici {
+    color: #6b7280 !important;
+}
+
+body.dark-mode .ayirici::before,
+body.dark-mode .ayirici::after {
+    border-color: #374151 !important;
+}
+
+body.dark-mode .yonlendirme {
+    color: #9ca3af !important;
+}
+
+body.dark-mode .secenek-kart {
+    background: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #d1d5db !important;
+}
+
+body.dark-mode .secenek-kart:hover {
+    border-color: #ff7e1d !important;
+    background: #374151 !important;
+}
+
+body.dark-mode .secenek-kart b {
+    color: #f9fafb !important;
+}
+
+body.dark-mode .kutu {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+}
+
+body.dark-mode .hata {
+    background-color: #451a1a !important;
+    border-color: #7f1d1d !important;
+    color: #fca5a5 !important;
+}
+
+body.dark-mode .btn-outline-nav {
+    border-color: #ff7e1d !important;
+    color: #ff7e1d !important;
+    background: transparent !important;
+}
+
+body.dark-mode .btn-outline-nav:hover {
+    background-color: rgba(255, 126, 29, 0.1) !important;
+}
+
+body.dark-mode .bilgi-satir {
+    border-color: #374151 !important;
+}
+
+body.dark-mode .bilgi-label {
+    color: #9ca3af !important;
+}
+
+body.dark-mode .bilgi-deger {
+    color: #f9fafb !important;
+}
+
+/* ========= Home Page CTA Section Dark Mode ========= */
+body.dark-mode .cta-section {
+    background: linear-gradient(135deg, #1f2937 0%, #111827 100%) !important;
+    border-top: 1px solid #374151 !important;
+    border-bottom: 1px solid #374151 !important;
+}
+
+body.dark-mode .cta-text h3 {
+    color: #f9fafb !important;
+}
+
+body.dark-mode .cta-text p {
+    color: #d1d5db !important;
+}
+
+body.dark-mode .btn-temizle {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #d1d5db !important;
+}
+
+body.dark-mode .gun-secimi label {
+    background: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #d1d5db !important;
+}
+
+body.dark-mode .gun-secimi label:hover {
+    background: #292524 !important;
+    border-color: #ff7e1d !important;
+    color: #ff7e1d !important;
+}
+
+body.dark-mode .gun-secimi input[type="checkbox"]:checked+* {
+    color: #ff7e1d !important;
+}
+
+/* ── Mesajlaşma Modal – Dark Mode ── */
+body.dark-mode #msj_kutu {
+    background: #111827 !important;
+}
+
+/* Gelen mesaj balonu (beyaz → koyu) */
+body.dark-mode #msj_kutu>div[style*="flex-start"] {
+    background: #1f2937 !important;
+    color: #e5e7eb !important;
+    border-color: #374151 !important;
+}
+
+/* Okunmamış tek tik – stroke currentColor, gelen/giden butonların rengi */
+body.dark-mode #msj_kutu svg[stroke="currentColor"] {
+    stroke: #9ca3af !important;
+    color: #9ca3af !important;
+}
+
+/* Okunmuş çift tik span – mavi (koyu modda daha parlak mavi) */
+body.dark-mode #msj_kutu span[style*="color:#34b7f1"] {
+    color: #60c8f5 !important;
+}
+
+body.dark-mode #msj_kutu span[style*="color:#34b7f1"] svg {
+    stroke: #60c8f5 !important;
+    color: #60c8f5 !important;
+}
+
+/* Okunmuş çift tik span – yeşil (is_ilanlari versiyonu) */
+body.dark-mode #msj_kutu span[style*="color:#10b981"] {
+    color: #34d399 !important;
+}
+
+body.dark-mode #msj_kutu span[style*="color:#10b981"] svg {
+    stroke: #34d399 !important;
+    color: #34d399 !important;
+}
+
+body.dark-mode .btn-mesaj-kucuk {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #d1d5db !important;
+}
+
+/* Logo & Buttons Dark Mode Fixes */
+body.dark-mode .logo img {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+body.dark-mode .btn-giris {
+    color: #f9fafb !important;
+}
+
+body.dark-mode .btn-giris:hover {
+    color: #ff7e1d !important;
+    border-color: #ff7e1d !important;
+}
+
+body.dark-mode .btn-tumunu-gor {
+    color: #f9fafb !important;
+}
+
+body.dark-mode .btn-tumunu-gor:hover {
+    color: #ff7e1d !important;
+    border-color: #ff7e1d !important;
+}
+
+body.dark-mode .btn-icon-gray {
+    color: #f9fafb !important;
+}
+
+body.dark-mode .btn-icon-gray:hover {
+    color: #ff7e1d !important;
+    border-color: #ff7e1d !important;
+}
+
+body.dark-mode .btn-icon-gray.aktif {
+    color: #ff7e1d !important;
+    background-color: rgba(255, 126, 29, 0.1) !important;
+    border-color: #ff7e1d !important;
+}
+
+/* Orange text overrides for Dark Mode */
+body.dark-mode .hero-text h1 span,
+body.dark-mode .hero-stat-num span,
+body.dark-mode .logo-text span,
+body.dark-mode .logo-footer span,
+body.dark-mode .io-zaman {
+    color: #ff7e1d !important;
+}
+
+/* ========= Job Listings Page Split Layout Dark Mode ========= */
+body.dark-mode .filter-bar {
+    background: #1f2937 !important;
+    border-bottom: 1px solid #374151 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+}
+
+body.dark-mode .main-container {
+    background: #111827 !important;
+}
+
+body.dark-mode .ilan-liste-paneli {
+    background: #111827 !important;
+    border-right: 1px solid #1f2937 !important;
+}
+
+body.dark-mode .panel-header {
+    background: #1f2937 !important;
+    border-bottom: 1px solid #374151 !important;
+    color: #9ca3af !important;
+}
+
+body.dark-mode .mini-ilan-kart {
+    background: #1f2937 !important;
+    border-bottom: 1px solid #111827 !important;
+}
+
+body.dark-mode .mini-ilan-kart:hover {
+    background: #283548 !important;
+}
+
+body.dark-mode .mini-ilan-kart.aktif {
+    background: #2d3d54 !important;
+    box-shadow: inset 4px 0 0 var(--primary) !important;
+    border-bottom: 1px solid #111827 !important;
+}
+
+body.dark-mode .detay-header-fixed {
+    background: #1f2937 !important;
+    border-bottom: 1px solid #374151 !important;
+}
+
+body.dark-mode .ilan-detay-paneli {
+    background: #1f2937 !important;
+    border-left: 1px solid #374151 !important;
+}
+
+body.dark-mode .custom-dropdown {
+    background: #1f2937 !important;
+    border: 1px solid #374151 !important;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.dark-mode .dropdown-option {
+    color: #d1d5db !important;
+}
+
+body.dark-mode .dropdown-option:hover {
+    background: #374151 !important;
+    color: var(--primary) !important;
+}
+
+body.dark-mode .search-pill {
+    background: #374151 !important;
+    border: 1px solid transparent !important;
+}
+
+body.dark-mode .search-pill:focus-within {
+    border-color: var(--primary) !important;
+    background: #1f2937 !important;
+}
+
+body.dark-mode .search-pill input {
+    color: #f9fafb !important;
+}
+
+body.dark-mode .search-pill svg {
+    color: #94a3b8 !important;
+}
+
+body.dark-mode .mini-logo {
+    background: #374151 !important;
+    border: 1px solid #4b5563 !important;
+    color: #ff7e1d !important;
+}
+
+body.dark-mode .detay-meta-line span[style*="color:#1e293b"],
+body.dark-mode .detay-meta-line span[style*="color: #1e293b"] {
+    color: #f9fafb !important;
+}
+
+body.dark-mode .section-h2 {
+    color: #f9fafb !important;
+    border-bottom: 2px solid #374151 !important;
+    padding-bottom: 8px !important;
+}
+
+body.dark-mode .detay-section-modern[style*="background:#f8fafc"],
+body.dark-mode .detay-section-modern[style*="background: #f8fafc"] {
+    background: #111827 !important;
+    border: 1px solid #374151 !important;
+}
+
+/* ========= Profil Modalı Koyu Mod Düzeltmeleri ========= */
+
+/* 1. Modal içeriğindeki alt gövdenin arka plan rengi */
+body.dark-mode .p-modal-govde {
+    background-color: #111827 !important;
+}
+
+/* 2. Rol etiketi (badge) arka plan ve metin rengi */
+body.dark-mode .p-rol-etiket {
+    background-color: #374151 !important;
+    color: #f3f4f6 !important;
+}
+
+/* 3. Sekme butonları (p-sekme-btn) */
+body.dark-mode .p-sekme-btn {
+    color: #9ca3af !important;
+}
+body.dark-mode .p-sekme-btn:hover {
+    color: #ff7e1d !important;
+    background-color: rgba(255, 126, 29, 0.05) !important;
+}
+body.dark-mode .p-sekme-btn.aktif {
+    color: #ff7e1d !important;
+    border-bottom-color: #ff7e1d !important;
+    background-color: rgba(255, 126, 29, 0.1) !important;
+}
+
+/* 4. Başvuru durumu yeşil rozeti */
+body.dark-mode span[style*="background:#d1fae5"],
+body.dark-mode span[style*="background: #d1fae5"] {
+    background-color: rgba(16, 185, 129, 0.15) !important;
+    color: #34d399 !important;
+}
+
+/* 5. Aday detay butonu */
+body.dark-mode .p-btn-detay {
+    background-color: #374151 !important;
+    color: #f3f4f6 !important;
+}
+body.dark-mode .p-btn-detay:hover {
+    background-color: #4b5563 !important;
+    color: #ffffff !important;
+}
+
+/* 6. Profil formlarındaki ayırıcı çizgi */
+body.dark-mode .pm-icerik div[style*="border-top"] {
+    border-top-color: #374151 !important;
+}
+
+/* 7. Hesabı Sil butonu */
+body.dark-mode button[onclick="hesabiSil()"] {
+    background-color: rgba(239, 68, 68, 0.1) !important;
+    color: #f87171 !important;
+    border-color: rgba(239, 68, 68, 0.3) !important;
+}
+body.dark-mode button[onclick="hesabiSil()"]:hover {
+    background-color: rgba(239, 68, 68, 0.2) !important;
+}
+
+/* 8. Mesajlaşma Penceresi Modal Koyu Modu */
+body.dark-mode #mesajPenceresiModal .modal-header-custom {
+    background-color: #1f2937 !important;
+    border-bottom-color: #374151 !important;
+}
+body.dark-mode #mesajPenceresiModal #chat_muhatap_ad {
+    color: #f9fafb !important;
+}
+body.dark-mode #mesajPenceresiModal .modal-body {
+    background-color: #111827 !important;
+}
+body.dark-mode #chat_messages {
+    background-color: #111827 !important;
+}
+body.dark-mode #mesajPenceresiModal .modal-body > div:last-child {
+    background-color: #1f2937 !important;
+    border-top-color: #374151 !important;
+}
+body.dark-mode #chat_input {
+    background-color: #374151 !important;
+    border-color: #4b5563 !important;
+    color: #f9fafb !important;
+}
+
+/* 9. İlan seçim günleri chip'leri */
+body.dark-mode .iv-gun-chip input[type="checkbox"]:checked + span {
+    background-color: rgba(255, 126, 29, 0.15) !important;
+    border-color: #ff7e1d !important;
+    color: #ff7e1d !important;
+}
+
+/* 10. Kart aksiyon butonları (Düzenle & Sil) */
+body.dark-mode .p-btn-icon {
+    background-color: #374151 !important;
+    border-color: #4b5563 !important;
+    color: #d1d5db !important;
+}
+body.dark-mode .p-btn-icon:hover {
+    background-color: #ff7e1d !important;
+    border-color: #ff7e1d !important;
+    color: #ffffff !important;
+}
+body.dark-mode .p-btn-icon.sil:hover {
+    background-color: #ef4444 !important;
+    border-color: #ef4444 !important;
+    color: #ffffff !important;
+}
+
+/* 11. Gelen mesaj balonu (incoming message bubble) */
+body.dark-mode .msg-balon.gelen {
+    background-color: #374151 !important;
+    color: #f9fafb !important;
+}
+body.dark-mode .msg-balon.gelen .msg-tarih {
+    color: #9ca3af !important;
+}
+
+/* 12. Aday ve Firma Detay Modalları Koyu Mod Tasarımı */
+body.dark-mode #adayDetayModal h3,
+body.dark-mode #firmaDetayModal h3 {
+    color: #f9fafb !important;
+}
+body.dark-mode #adayDetayModal .modal-body,
+body.dark-mode #firmaDetayModal .modal-body {
+    background-color: #111827 !important;
+}
+body.dark-mode #adayDetayModal div[style*="background:#f8fafc"],
+body.dark-mode #adayDetayModal div[style*="background: #f8fafc"],
+body.dark-mode #firmaDetayModal div[style*="background:#f8fafc"],
+body.dark-mode #firmaDetayModal div[style*="background: #f8fafc"] {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+}
+body.dark-mode #adayDetayModal div[style*="color:#1e293b"],
+body.dark-mode #adayDetayModal div[style*="color: #1e293b"],
+body.dark-mode #firmaDetayModal div[style*="color:#1e293b"],
+body.dark-mode #firmaDetayModal div[style*="color: #1e293b"] {
+    color: #f9fafb !important;
+}
+body.dark-mode #adayDetayModal div[style*="background:#f1f5f9"],
+body.dark-mode #adayDetayModal div[style*="background: #f1f5f9"] {
+    background-color: #1f2937 !important;
+    border-left-color: #ff7e1d !important;
+    color: #f9fafb !important;
+}
+body.dark-mode #adayDetayModal div[style*="color:#475569"],
+body.dark-mode #adayDetayModal div[style*="color: #475569"] {
+    color: #d1d5db !important;
+}
+body.dark-mode #firmaDetayModal div[style*="background:#fff"],
+body.dark-mode #firmaDetayModal div[style*="background: #fff"] {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #d1d5db !important;
+}
+body.dark-mode #firmaDetayModal div[style*="color:#475569"] {
+    color: #d1d5db !important;
+}
+
+/* ========= Navigation Links Dark Mode Overrides ========= */
+body.dark-mode .nav-link:hover {
+    background-color: #374151 !important;
+    color: #ffffff !important;
+}
+body.dark-mode .nav-link.aktif {
+    color: #ff7e1d !important;
+}
+body.dark-mode .nav-link.aktif:hover {
+    background-color: #374151 !important;
+    color: #ff7e1d !important;
+}
